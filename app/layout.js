@@ -2,6 +2,7 @@ import { IBM_Plex_Sans, JetBrains_Mono } from 'next/font/google'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import AosProvider from '@/components/AosProvider'
+import ScrollProgress from '@/components/ScrollProgress'
 import { profile, siteUrl } from '@/lib/site'
 import './globals.css'
 
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
     <html lang="id" className={`${sans.variable} ${mono.variable}`}>
       <body className="min-h-screen bg-base font-sans text-zinc-300">
         <AosProvider />
+        <ScrollProgress />
         {children}
       </body>
     </html>
