@@ -1,6 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Button from '@/components/Button'
+import CopyButton from '@/components/CopyButton'
 import { profile, socials } from '@/lib/site'
+
+const email = socials.find((item) => item.href.startsWith('mailto:')).href.replace('mailto:', '')
 
 export default function Contact() {
   return (
@@ -27,6 +30,7 @@ export default function Contact() {
                 {item.label}
               </Button>
             ))}
+            <CopyButton text={email} label="Salin Email" />
           </div>
         </div>
       </div>
