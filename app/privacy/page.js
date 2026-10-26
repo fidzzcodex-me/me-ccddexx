@@ -24,7 +24,7 @@ const sections = [
   },
   {
     title: 'Tautan Eksternal',
-    text: 'Situs ini memuat tautan ke layanan pihak ketiga seperti GitHub dan Telegram. Kebijakan privasi layanan tersebut berada di luar kendali kami.',
+    text: 'Situs ini memuat tautan ke layanan pihak ketiga seperti GitHub dan Gmail. Kebijakan privasi layanan tersebut berada di luar kendali kami.',
   },
   {
     title: 'Keamanan',
