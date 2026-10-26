@@ -8,6 +8,7 @@ export default function About() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="~/tentang"
+          index="01"
           title="Developer yang Terus Bertumbuh"
           text="Saya adalah developer muda yang belajar langsung dari kesalahan. Setiap kendala saya jadikan bahan pembelajaran, dan saya terus mencoba hingga solusinya berhasil. Ketika menemui jalan buntu, saya tidak mudah menyerah dan selalu berupaya memberikan hasil terbaik secara maksimal."
         />
@@ -18,7 +19,7 @@ export default function About() {
               key={item.title}
               data-aos="fade-up"
               data-aos-delay={position * 120}
-              className="group rounded-3xl border border-line bg-surface p-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] transition duration-500 hover:-translate-y-1.5 hover:border-white/15"
+              className="group rounded-3xl border border-line bg-surface p-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] transition duration-500 hover:-translate-y-1.5 hover:border-green-500/20 hover:shadow-[0_0_40px_rgba(74,222,128,0.07)]"
             >
               <span className="flex h-12 w-12 items-center justify-center rounded-full border border-line bg-black/40 text-green-400 transition duration-500 group-hover:scale-110">
                 <FontAwesomeIcon icon={item.icon} className="h-5 w-5" />
