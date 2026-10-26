@@ -22,7 +22,7 @@ export default function Contact() {
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             {socials.map((item) => (
-              <Button key={item.label} href={item.href} variant={item.variant} external>
+              <Button key={item.label} href={item.href} variant={item.variant} external={item.href.startsWith('http')}>
                 <FontAwesomeIcon icon={item.icon} className="h-4 w-4" />
                 {item.label}
               </Button>
