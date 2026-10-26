@@ -8,7 +8,7 @@ export default function Goals() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="~/tujuan"
-          index="05"
+          index="06"
           title="Arah ke Depan"
           text="Cita-cita saya adalah menjadi programmer hebat dan menghasilkan penghasilan yang dapat membantu perekonomian."
         />
