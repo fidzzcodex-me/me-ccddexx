@@ -5,6 +5,7 @@ import Goals from '@/components/Goals'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import ChatDemo from '@/components/ChatDemo'
+import Repos from '@/components/Repos'
 import Skills from '@/components/Skills'
 import Terminal from '@/components/Terminal'
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Skills />
         <ChatDemo />
         <Terminal />
+        <Repos />
         <Goals />
         <Contact />
       </main>
