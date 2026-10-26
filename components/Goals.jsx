@@ -8,6 +8,7 @@ export default function Goals() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="~/tujuan"
+          index="05"
           title="Arah ke Depan"
           text="Cita-cita saya adalah menjadi programmer hebat dan menghasilkan penghasilan yang dapat membantu perekonomian."
         />
@@ -18,7 +19,7 @@ export default function Goals() {
               key={item.title}
               data-aos="fade-up"
               data-aos-delay={position * 150}
-              className="rounded-3xl border border-line bg-surface p-8 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] transition duration-500 hover:-translate-y-1.5 hover:border-white/15"
+              className="rounded-3xl border border-line bg-surface p-8 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] transition duration-500 hover:-translate-y-1.5 hover:border-green-500/20 hover:shadow-[0_0_40px_rgba(74,222,128,0.07)]"
             >
               <span className="flex h-12 w-12 items-center justify-center rounded-full border border-green-500/20 bg-green-500/10 text-green-400">
                 <FontAwesomeIcon icon={item.icon} className="h-5 w-5" />
